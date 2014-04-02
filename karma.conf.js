@@ -10,18 +10,22 @@ module.exports = function(config) {
     frameworks: ['jasmine'],
 
     // list of files / patterns to load in the browser
-    files: [
-      'app/bower_components/angular/angular.js',
-      'app/bower_components/angular-mocks/angular-mocks.js',
-      'app/bower_components/angular-resource/angular-resource.js',
-      'app/bower_components/angular-cookies/angular-cookies.js',
-      'app/bower_components/angular-sanitize/angular-sanitize.js',
-      'app/bower_components/angular-route/angular-route.js',
-      'app/scripts/*.js',
-      'app/scripts/**/*.js',
-      'test/mock/**/*.js',
-      'test/spec/**/*.js'
-    ],
+files: [
+  'app/bower_components/jquery/jquery.js',
+  'app/bower_components/jquery-ui/ui/jquery-ui.js',
+  'app/bower_components/angular/angular.js',
+  'app/bower_components/angular-ui/build/angular-ui.js',
+  'app/bower_components/angular-mocks/angular-mocks.js',
+  'app/bower_components/angular-local-storage/angular-local-storage.js',
+  'app/scripts/*.js',
+  'app/scripts/**/*.js',
+  'test/mock/**/*.js',
+  'test/spec/**/*.js',
+  'app/bower_components/angular-resource/angular-resource.js',
+  'app/bower_components/angular-cookies/angular-cookies.js',
+  'app/bower_components/angular-sanitize/angular-sanitize.js',
+  'app/bower_components/angular-route/angular-route.js'
+],
 
     // list of files / patterns to exclude
     exclude: [],
@@ -46,7 +50,7 @@ module.exports = function(config) {
     // - Safari (only Mac)
     // - PhantomJS
     // - IE (only Windows)
-    browsers: ['Chrome'],
+    browsers: ['Opera'],
 
 
     // Continuous Integration mode
